@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #F5CF06;
+    --secondary-color : #8E4106;
+    --space-default: 70px;
+}
+body{
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--space-default);
+    padding-bottom: 24px;
+}
+
+header{
+    height: 48px;
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: palevioletred;
+    flex-grow: 1;
+}
+
+footer{
+    background-color: white; 
+}
